@@ -12,5 +12,5 @@ const calculate = (n1: number, n2: number) => {
 
 button.addEventListener('click', () =>{
     // conversion the variable number1 & number2 into type numbers 
-    result.innerHTML = calculate(+number1.value, +number2.value).toString();
+    result.innerHTML = calculate(+number1.value, +number2.value).toString(); 
 });
