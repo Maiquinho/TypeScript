@@ -5,5 +5,5 @@ interface User {
 }
 
 const userInfo = (user: User) => { 
-    return `Hello ${user.name}, you have ${user.age} old.`; 
+    return `Hello ${user.name}, you have ${user.age} old.`;  
 }
